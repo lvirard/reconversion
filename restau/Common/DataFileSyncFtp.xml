@@ -1,0 +1,319 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="FtpData" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="FtpData">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="LocalPath" type="xs:string" />
+                <xs:element name="Index" type="xs:int" minOccurs="0" />
+                <xs:element name="Path" type="xs:string" minOccurs="0" />
+                <xs:element name="Size" type="xs:int" minOccurs="0" />
+                <xs:element name="Command" type="xs:string" minOccurs="0" />
+                <xs:element name="Progress" type="xs:int" minOccurs="0" />
+                <xs:element name="Retry" type="xs:int" minOccurs="0" />
+                <xs:element name="Success" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//FtpData" />
+        <xs:field xpath="LocalPath" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique_Backup\Backup\.htaccess</LocalPath>
+    <Index>1</Index>
+    <Path>Backup/.htaccess</Path>
+    <Size>33</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique\.htaccess</LocalPath>
+    <Index>2</Index>
+    <Path>.htaccess</Path>
+    <Size>0</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique\actualites(var).js</LocalPath>
+    <Index>3</Index>
+    <Path>actualites(var).js</Path>
+    <Size>2930</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique\actualites(var).php</LocalPath>
+    <Index>4</Index>
+    <Path>actualites(var).php</Path>
+    <Size>1601</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique\actualites.css</LocalPath>
+    <Index>5</Index>
+    <Path>actualites.css</Path>
+    <Size>11299</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique_Backup\Backup\actualites.dat</LocalPath>
+    <Index>6</Index>
+    <Path>Backup/actualites.dat</Path>
+    <Size>2472289</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique\actualites.en-us.htm</LocalPath>
+    <Index>7</Index>
+    <Path>actualites.en-us.htm</Path>
+    <Size>40902</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique\actualites.htm</LocalPath>
+    <Index>8</Index>
+    <Path>actualites.htm</Path>
+    <Size>41583</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique\index(var).js</LocalPath>
+    <Index>9</Index>
+    <Path>index(var).js</Path>
+    <Size>12772</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique\index(var).php</LocalPath>
+    <Index>10</Index>
+    <Path>index(var).php</Path>
+    <Size>1833</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique\index.css</LocalPath>
+    <Index>11</Index>
+    <Path>index.css</Path>
+    <Size>22927</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique_Backup\Backup\index.dat</LocalPath>
+    <Index>12</Index>
+    <Path>Backup/index.dat</Path>
+    <Size>4746025</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique\index.en-us.htm</LocalPath>
+    <Index>13</Index>
+    <Path>index.en-us.htm</Path>
+    <Size>60836</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique\index.htm</LocalPath>
+    <Index>14</Index>
+    <Path>index.htm</Path>
+    <Size>61541</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique\Templates\Base.css</LocalPath>
+    <Index>15</Index>
+    <Path>Templates/Base.css</Path>
+    <Size>2118</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique_Backup\Backup\Templates\Base.tdat</LocalPath>
+    <Index>16</Index>
+    <Path>Backup/Templates/Base.tdat</Path>
+    <Size>335316</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique\Templates\Base_Menu.css</LocalPath>
+    <Index>17</Index>
+    <Path>Templates/Base_Menu.css</Path>
+    <Size>5870</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique_Backup\Backup\Templates\Base_Menu.tdat</LocalPath>
+    <Index>18</Index>
+    <Path>Backup/Templates/Base_Menu.tdat</Path>
+    <Size>885233</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique\Templates\Base_Menu_Alt.css</LocalPath>
+    <Index>19</Index>
+    <Path>Templates/Base_Menu_Alt.css</Path>
+    <Size>5722</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique_Backup\Backup\Templates\Base_Menu_Alt.tdat</LocalPath>
+    <Index>20</Index>
+    <Path>Backup/Templates/Base_Menu_Alt.tdat</Path>
+    <Size>883954</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique\Templates\preloader.css</LocalPath>
+    <Index>21</Index>
+    <Path>Templates/preloader.css</Path>
+    <Size>830</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique_Backup\Backup\Templates\preloader.tdat</LocalPath>
+    <Index>22</Index>
+    <Path>Backup/Templates/preloader.tdat</Path>
+    <Size>175774</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique\sitemap.xml</LocalPath>
+    <Index>23</Index>
+    <Path>sitemap.xml</Path>
+    <Size>2494</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique\robots.txt</LocalPath>
+    <Index>24</Index>
+    <Path>robots.txt</Path>
+    <Size>47</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique_Backup\Backup\Templates\Controls\WECadre_cdae5836.OESkin</LocalPath>
+    <Index>25</Index>
+    <Path>Backup/Templates/Controls/WECadre_cdae5836.OESkin</Path>
+    <Size>51373</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique_Backup\Backup\Templates\Controls\WEHrVertival_ac2be573.OESkin</LocalPath>
+    <Index>26</Index>
+    <Path>Backup/Templates/Controls/WEHrVertival_ac2be573.OESkin</Path>
+    <Size>28993</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique_Backup\Backup\Templates\Controls\WELink_a97d84f2.OESkin</LocalPath>
+    <Index>27</Index>
+    <Path>Backup/Templates/Controls/WELink_a97d84f2.OESkin</Path>
+    <Size>32979</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique_Backup\Backup\Templates\Controls\WELink_f953043c.OESkin</LocalPath>
+    <Index>28</Index>
+    <Path>Backup/Templates/Controls/WELink_f953043c.OESkin</Path>
+    <Size>28210</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\Cheaty\AppData\Local\Temp\openElementFtp\Site Web L'authentique_Backup\Backup\Site Web L'authentique.ope</LocalPath>
+    <Index>29</Index>
+    <Path>Backup/Site Web L'authentique.ope</Path>
+    <Size>3546</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+</NewDataSet>
