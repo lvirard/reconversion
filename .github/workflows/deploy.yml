@@ -20,6 +20,6 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftp
           port: 21
-          local-dir: .
+          local-dir: ./
           server-dir: /sites/laety-vrd.fr/
           dangerous-clean-slate: false   # Ne supprime rien, remplace juste les fichiers modifiés
