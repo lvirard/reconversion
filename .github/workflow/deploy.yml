@@ -1,0 +1,25 @@
+name: Deploy to Hosteur FTP
+
+on:
+  push:
+    branches: ["master"] 
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: FTP deploy to Hosteur
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.3
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftp
+          port: 21
+          local-dir: .
+          server-dir: /sites/laety-vrd.fr/
+          dangerous-clean-slate: false   # Ne supprime rien, remplace juste les fichiers modifiés
